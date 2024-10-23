@@ -24,13 +24,13 @@ app.post('/upload', upload.single('resume'), async (req, res) => {
         const dataBuffer = fs.readFileSync(req.file.path);
         const pdfData = await pdfParse(dataBuffer);
 
-        // Process the PDF and generate markdown content with TOML front matter
+        // Process the PDF and generate markdown content with TOML front matter, including type = "resume"
         const markdownContent = `
 +++
 title = "${originalFileName.replace('.pdf', '')}"
 date = "${new Date().toISOString()}"
-type = "resume"
 draft = false
+type = "resume"
 +++
 
 ## Resume Overview

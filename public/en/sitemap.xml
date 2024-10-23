@@ -2,178 +2,175 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:50618/</loc>
-    <lastmod>2024-10-23T14:15:26+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:50618/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:50618/"
-                />
-  </url><url>
-    <loc>http://localhost:50618/resumes/</loc>
-    <lastmod>2024-10-23T14:15:26+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:50618/es/resumes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:50618/resumes/"
-                />
-  </url><url>
-    <loc>http://localhost:50618/resumes/simon_chang_resume/</loc>
-    <lastmod>2024-10-23T14:15:26+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50618/home/</loc>
+    <loc>http://localhost:50745/</loc>
     <lastmod>2024-10-18T11:17:47-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/home/"
+                href="http://localhost:50745/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/home/"
+                href="http://localhost:50745/"
                 />
   </url><url>
-    <loc>http://localhost:50618/upload/</loc>
+    <loc>http://localhost:50745/home/</loc>
+    <lastmod>2024-10-18T11:17:47-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:50745/es/home/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:50745/home/"
+                />
+  </url><url>
+    <loc>http://localhost:50745/upload/</loc>
     <lastmod>2024-10-18T11:17:07-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/upload/"
+                href="http://localhost:50745/es/upload/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/upload/"
+                href="http://localhost:50745/upload/"
                 />
   </url><url>
-    <loc>http://localhost:50618/contact/</loc>
+    <loc>http://localhost:50745/contact/</loc>
     <lastmod>2024-10-18T11:14:26-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/contact/"
+                href="http://localhost:50745/es/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/contact/"
+                href="http://localhost:50745/contact/"
                 />
   </url><url>
-    <loc>http://localhost:50618/about/</loc>
+    <loc>http://localhost:50745/about/</loc>
     <lastmod>2024-10-18T11:14:10-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/about/"
+                href="http://localhost:50745/es/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/about/"
+                href="http://localhost:50745/about/"
                 />
   </url><url>
-    <loc>http://localhost:50618/tags/full-stack-development/</loc>
+    <loc>http://localhost:50745/tags/full-stack-development/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50618/resumes/jane-doe/</loc>
-    <lastmod>2024-10-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:50618/es/resumes/jane-doe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:50618/resumes/jane-doe/"
-                />
-  </url><url>
-    <loc>http://localhost:50618/tags/node.js/</loc>
+    <loc>http://localhost:50745/resumes/jane-doe/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/tags/node.js/"
+                href="http://localhost:50745/es/resumes/jane-doe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/tags/node.js/"
+                href="http://localhost:50745/resumes/jane-doe/"
                 />
   </url><url>
-    <loc>http://localhost:50618/tags/react/</loc>
+    <loc>http://localhost:50745/tags/node.js/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/tags/react/"
+                href="http://localhost:50745/es/tags/node.js/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/tags/react/"
+                href="http://localhost:50745/tags/node.js/"
                 />
   </url><url>
-    <loc>http://localhost:50618/tags/</loc>
+    <loc>http://localhost:50745/tags/react/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/tags/"
+                href="http://localhost:50745/es/tags/react/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/tags/"
+                href="http://localhost:50745/tags/react/"
                 />
   </url><url>
-    <loc>http://localhost:50618/categories/</loc>
+    <loc>http://localhost:50745/resumes/</loc>
+    <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/categories/"
+                href="http://localhost:50745/es/resumes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/categories/"
+                href="http://localhost:50745/resumes/"
                 />
   </url><url>
-    <loc>http://localhost:50618/edit/</loc>
+    <loc>http://localhost:50745/tags/</loc>
+    <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/edit/"
+                href="http://localhost:50745/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/edit/"
+                href="http://localhost:50745/tags/"
                 />
   </url><url>
-    <loc>http://localhost:50618/search/</loc>
+    <loc>http://localhost:50745/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/search/"
+                href="http://localhost:50745/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/search/"
+                href="http://localhost:50745/categories/"
                 />
   </url><url>
-    <loc>http://localhost:50618/users/</loc>
+    <loc>http://localhost:50745/edit/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:50745/es/edit/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:50745/edit/"
+                />
+  </url><url>
+    <loc>http://localhost:50745/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:50745/es/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:50745/search/"
+                />
+  </url><url>
+    <loc>http://localhost:50745/users/</loc>
   </url>
 </urlset>

@@ -2,175 +2,175 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:50618/es/home/</loc>
+    <loc>http://localhost:50745/es/home/</loc>
     <lastmod>2024-10-18T11:17:47-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/home/"
+                href="http://localhost:50745/home/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/home/"
+                href="http://localhost:50745/es/home/"
                 />
   </url><url>
-    <loc>http://localhost:50618/es/</loc>
+    <loc>http://localhost:50745/es/</loc>
     <lastmod>2024-10-18T11:17:47-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/"
+                href="http://localhost:50745/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/"
+                href="http://localhost:50745/es/"
                 />
   </url><url>
-    <loc>http://localhost:50618/es/search/</loc>
+    <loc>http://localhost:50745/es/search/</loc>
     <lastmod>2024-10-18T11:17:27-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/search/"
+                href="http://localhost:50745/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/search/"
+                href="http://localhost:50745/es/search/"
                 />
   </url><url>
-    <loc>http://localhost:50618/es/upload/</loc>
+    <loc>http://localhost:50745/es/upload/</loc>
     <lastmod>2024-10-18T11:17:07-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/upload/"
+                href="http://localhost:50745/upload/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/upload/"
+                href="http://localhost:50745/es/upload/"
                 />
   </url><url>
-    <loc>http://localhost:50618/es/edit/</loc>
+    <loc>http://localhost:50745/es/edit/</loc>
     <lastmod>2024-10-18T11:15:31-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/edit/"
+                href="http://localhost:50745/edit/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/edit/"
+                href="http://localhost:50745/es/edit/"
                 />
   </url><url>
-    <loc>http://localhost:50618/es/contact/</loc>
+    <loc>http://localhost:50745/es/contact/</loc>
     <lastmod>2024-10-18T11:14:26-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/contact/"
+                href="http://localhost:50745/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/contact/"
+                href="http://localhost:50745/es/contact/"
                 />
   </url><url>
-    <loc>http://localhost:50618/es/about/</loc>
+    <loc>http://localhost:50745/es/about/</loc>
     <lastmod>2024-10-18T11:14:10-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/about/"
+                href="http://localhost:50745/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/about/"
+                href="http://localhost:50745/es/about/"
                 />
   </url><url>
-    <loc>http://localhost:50618/es/tags/desarrollo-full-stack/</loc>
+    <loc>http://localhost:50745/es/tags/desarrollo-full-stack/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50618/es/resumes/jane-doe/</loc>
-    <lastmod>2024-10-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:50618/resumes/jane-doe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:50618/es/resumes/jane-doe/"
-                />
-  </url><url>
-    <loc>http://localhost:50618/es/tags/node.js/</loc>
+    <loc>http://localhost:50745/es/resumes/jane-doe/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/tags/node.js/"
+                href="http://localhost:50745/resumes/jane-doe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/tags/node.js/"
+                href="http://localhost:50745/es/resumes/jane-doe/"
                 />
   </url><url>
-    <loc>http://localhost:50618/es/tags/react/</loc>
+    <loc>http://localhost:50745/es/tags/node.js/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/tags/react/"
+                href="http://localhost:50745/tags/node.js/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/tags/react/"
+                href="http://localhost:50745/es/tags/node.js/"
                 />
   </url><url>
-    <loc>http://localhost:50618/es/resumes/</loc>
+    <loc>http://localhost:50745/es/tags/react/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/resumes/"
+                href="http://localhost:50745/tags/react/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/resumes/"
+                href="http://localhost:50745/es/tags/react/"
                 />
   </url><url>
-    <loc>http://localhost:50618/es/tags/</loc>
+    <loc>http://localhost:50745/es/resumes/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/tags/"
+                href="http://localhost:50745/resumes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/tags/"
+                href="http://localhost:50745/es/resumes/"
                 />
   </url><url>
-    <loc>http://localhost:50618/es/categories/</loc>
+    <loc>http://localhost:50745/es/tags/</loc>
+    <lastmod>2024-10-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:50618/categories/"
+                href="http://localhost:50745/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:50618/es/categories/"
+                href="http://localhost:50745/es/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:50745/es/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:50745/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:50745/es/categories/"
                 />
   </url>
 </urlset>
