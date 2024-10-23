@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Full Stack Development on EchoSlate</title>
-    <link>http://localhost:50745/tags/full-stack-development/</link>
+    <link>http://localhost:1313/tags/full-stack-development/</link>
     <description>Recent content in Full Stack Development on EchoSlate</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50745/tags/full-stack-development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/full-stack-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jane Doe</title>
-      <link>http://localhost:50745/resumes/jane-doe/</link>
+      <link>http://localhost:1313/resumes/jane-doe/</link>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50745/resumes/jane-doe/</guid>
+      <guid>http://localhost:1313/resumes/jane-doe/</guid>
       <description>&lt;h1 id=&#34;jane-doe&#34;&gt;Jane Doe&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:jane.doe@example.com&#34;&gt;jane.doe@example.com&lt;/a&gt;&lt;br&gt;&#xA;&lt;strong&gt;Phone:&lt;/strong&gt; (123) 456-7890&lt;br&gt;&#xA;&lt;strong&gt;Location:&lt;/strong&gt; San Francisco, CA, USA&lt;br&gt;&#xA;&lt;strong&gt;LinkedIn:&lt;/strong&gt; &lt;a href=&#34;https://linkedin.com/in/janedoe&#34;&gt;linkedin.com/in/janedoe&lt;/a&gt;&lt;br&gt;&#xA;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/janedoe&#34;&gt;github.com/janedoe&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;professional-summary&#34;&gt;Professional Summary&lt;/h2&gt;&#xA;&lt;p&gt;Full Stack Developer with over 5 years of experience building web applications using JavaScript, Node.js, and React. Passionate about creating efficient, scalable applications with a focus on user experience and performance optimization.&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programming Languages:&lt;/strong&gt; JavaScript (ES6+), TypeScript, Python, Java&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frameworks &amp;amp; Libraries:&lt;/strong&gt; React, Node.js, Express.js, Next.js&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Databases:&lt;/strong&gt; MongoDB, PostgreSQL, MySQL&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tools &amp;amp; Platforms:&lt;/strong&gt; Git, Docker, AWS, Jenkins, CI/CD&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Other:&lt;/strong&gt; RESTful APIs, GraphQL, Agile/Scrum, TDD/BDD&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;&#xA;&lt;h3 id=&#34;senior-full-stack-developer&#34;&gt;&lt;strong&gt;Senior Full Stack Developer&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;ABC Tech Solutions&lt;/strong&gt;, San Francisco, CA&lt;br&gt;&#xA;&lt;strong&gt;June 2020 – Present&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>

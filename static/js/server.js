@@ -47,18 +47,22 @@ ${pdfData.text.split('\n').map(line => `> ${line}`).join('\n')}
 - **Upload Date**: ${new Date().toLocaleDateString()}
         `;
 
+        // Print markdown content for debugging
+        console.log(markdownContent);  // <-- Check if "type = resume" is part of the content
+
         // Create the markdown file name based on the original name (replace .pdf with .md)
         const markdownFileName = `${originalFileName.replace('.pdf', '')}.md`;
 
+        // Adjust path to project root's 'content/en/resumes' regardless of where server.js is located
+        const markdownDir = path.join(__dirname, '../../content/en/resumes');  // Adjusted for new location
+
         // Ensure the 'content/en/resumes' directory exists, if not, create it
-        const markdownDir = path.join(__dirname, 'content', 'en', 'resumes');
         if (!fs.existsSync(markdownDir)) {
             fs.mkdirSync(markdownDir, { recursive: true });
         }
 
         // Write the markdown file to the 'content/en/resumes' directory
-        const markdownFilePath = path.join(markdownDir, markdownFileName);
-        fs.writeFileSync(markdownFilePath, markdownContent);
+        fs.writeFileSync(path.join(markdownDir, markdownFileName), markdownContent);
 
         // Respond with success message
         res.status(200).send('Resume uploaded and markdown generated!');

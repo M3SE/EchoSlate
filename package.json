@@ -10,6 +10,6 @@
     "pdf-parse": "^1.1.1"
   },
    "scripts": {
-    "start": "concurrently \"hugo server\" \"node server.js\""
+    "start": "concurrently \"hugo server\" \"node static/js/server.js\""
   }
 }
