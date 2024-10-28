@@ -1,15 +1,12 @@
 +++
-title = "Edit Profile"
-description = "Edit Your EchoSlate Profile"
+title = "Upload"
+layout = "upload"
+translationKey = "upload-page"
+date = 2024-10-18T11:17:07-04:00
+lang = "en"
 draft = false
 +++
 
-# Edit Your Profile
+Please upload your resume below:
 
-Update your personal information, add new projects, and manage your resume.
-
-- **Personal Details**: Update your name, contact info, and summary.
-- **Projects**: Add or remove projects you've worked on.
-- **Resume**: Upload a new resume or update existing one.
-
-[Save Changes](/dashboard/)
+{{< upload-resume >}}

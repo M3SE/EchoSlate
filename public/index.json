@@ -6,9 +6,29 @@
       "content": "\rWelcome to EchoSlate\rEchoSlate is your digital platform to showcase resumes and projects in Full Stack Development, Data Analytics, and Cybersecurity.\nCreate a profile to highlight your skills. Upload your resume and share your experience. Connect with professionals in your field. Get Started\r| Learn More\r"
     },
     {
+      "title": "Resumes",
+      "permalink": "/users/resumes/",
+      "content": "This section displays a collection of user resumes.\n"
+    },
+    {
+      "title": "Simon chang's Resume",
+      "permalink": "/users/resumes/simon_chang_resume/",
+      "content": "\rContact Information\rName: Simon chang Email: simonc691@gmailcom\rPhone: 7634862531 GitHub: https://github.com/M3SE\rView Resume\rYou can download the resume\ror view it below:\n"
+    },
+    {
+      "title": "Users",
+      "permalink": "/users/",
+      "content": "\rUsers\rBrowse through all user resumes below.\n"
+    },
+    {
       "title": "Home",
       "permalink": "/home/",
       "content": "welcome to your personal profile page\n"
+    },
+    {
+      "title": "Upload",
+      "permalink": "/upload/",
+      "content": "Please upload your resume below:\nUpload Your Resume Name Email Phone GitHub Select Your Resume Upload "
     },
     {
       "title": "Dean Mastria",
@@ -51,11 +71,6 @@
       "content": ""
     },
     {
-      "title": "Resumes",
-      "permalink": "/users/resumes/",
-      "content": "This section displays a collection of user resumes.\n"
-    },
-    {
       "title": "Ryan Panagrosso",
       "permalink": "/users/resumes/ryan/",
       "content": "\rDean Mastria\rEmail: jane.doe@example.com\rPhone: (123) 456-7890\nLocation: San Francisco, CA, USA\nLinkedIn: linkedin.com/in/deanmastria\rGitHub: github.com/deanmastria\rDownload Resume PDF\r"
@@ -69,16 +84,6 @@
       "title": "Tags",
       "permalink": "/tags/",
       "content": ""
-    },
-    {
-      "title": "Thomas Mulligan",
-      "permalink": "/users/resumes/tommy/",
-      "content": "\rJane Doe\rEmail: jane.doe@example.com\rPhone: (123) 456-7890\nLocation: San Francisco, CA, USA\nLinkedIn: linkedin.com/in/janedoe\rGitHub: github.com/janedoe\rProfessional Summary\rFull Stack Developer with over 5 years of experience building web applications using JavaScript, Node.js, and React. Passionate about creating efficient, scalable applications with a focus on user experience and performance optimization.\nSkills\rProgramming Languages: JavaScript (ES6+), TypeScript, Python, Java Frameworks \u0026amp; Libraries: React, Node.js, Express.js, Next.js Databases: MongoDB, PostgreSQL, MySQL Tools \u0026amp; Platforms: Git, Docker, AWS, Jenkins, CI/CD Other: RESTful APIs, GraphQL, Agile/Scrum, TDD/BDD Experience\rSenior Full Stack Developer\rABC Tech Solutions, San Francisco, CA\nJune 2020 – Present\nLead the development of a customer-facing web application using React and Node.js, improving performance by 30%. Collaborate with cross-functional teams to design and implement new features, enhancing user engagement by 25%. Mentor junior developers and conduct code reviews to maintain code quality and best practices. Full Stack Developer\rXYZ Innovations, San Francisco, CA\nAugust 2017 – May 2020\nDeveloped and maintained web applications using Django and React, serving over 50,000 users. Implemented RESTful APIs and integrated third-party services, reducing data retrieval time by 40%. Optimized database queries, reducing load times by 25%, and improved application scalability. Education\rBachelor of Science in Computer Science\rUniversity of California, Berkeley\n2013 – 2017\nGPA: 3.8/4.0 Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Engineering, Machine Learning Projects\rE-Commerce Platform: Built a scalable e-commerce platform using Node.js and React, handling over 10,000 daily users. Real-Time Chat Application: Developed a chat application using WebSocket and Node.js, supporting real-time communication for 5,000 concurrent users. Portfolio Website: Created a personal portfolio website using Next.js and Tailwind CSS to showcase projects and blogs. Certifications\rAWS Certified Solutions Architect – Associate Certified ScrumMaster (CSM) Oracle Certified Java Programmer Languages\rEnglish: Native Spanish: Fluent References\rAvailable upon request.\nDownload Resume PDF\r"
-    },
-    {
-      "title": "Users",
-      "permalink": "/users/",
-      "content": "\rUsers\rBrowse through all user resumes below.\n{{ range .Pages }}\r{{ partial \"resume-card.html\" . }}\r{{ end }}\r"
     },
     {
       "title": "Categories",
@@ -98,11 +103,6 @@
     {
       "title": "Edit Profile",
       "permalink": "/edit/",
-      "content": "\rEdit Your Profile\rUpdate your personal information, add new projects, and manage your resume.\nPersonal Details: Update your name, contact info, and summary. Projects: Add or remove projects you\u0026rsquo;ve worked on. Resume: Upload a new resume or update existing one. Save Changes\r"
-    },
-    {
-      "title": "Edit Profile",
-      "permalink": "/upload/",
       "content": "\rEdit Your Profile\rUpdate your personal information, add new projects, and manage your resume.\nPersonal Details: Update your name, contact info, and summary. Projects: Add or remove projects you\u0026rsquo;ve worked on. Resume: Upload a new resume or update existing one. Save Changes\r"
     },
     {

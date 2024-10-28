@@ -28,6 +28,19 @@
                 href="http://localhost:1313/home/"
                 />
   </url><url>
+    <loc>http://localhost:1313/upload/</loc>
+    <lastmod>2024-10-18T11:17:07-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/upload/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/upload/"
+                />
+  </url><url>
     <loc>http://localhost:1313/users/resumes/dean/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -163,18 +176,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/edit/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/upload/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/upload/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/upload/"
                 />
   </url><url>
     <loc>http://localhost:1313/search/</loc>

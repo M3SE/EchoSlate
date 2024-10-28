@@ -1,5 +1,26 @@
-{{ define "main" }}
-<article class="prose dark:prose-dark mx-auto px-4 sm:px-6 lg:px-8 py-12">
-  {{ .Content }}
+<!-- layouts/resumes/single.html -->
+<article class="max-w-4xl mx-auto p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+  <header class="mb-6">
+    <h1 class="text-4xl font-bold text-gray-900 dark:text-white">{{ .Params.name }}'s Resume</h1>
+    <p class="text-gray-600 dark:text-gray-400">{{ .Params.description }}</p>
+    <time class="text-gray-500 dark:text-gray-400">{{ .Date.Format "January 2, 2006" }}</time>
+  </header>
+
+  <!-- Contact Information -->
+  <section class="mb-6">
+    <h2 class="text-2xl font-semibold text-gray-900 dark:text-white">Contact Information</h2>
+    <ul class="text-gray-700 dark:text-gray-300">
+      <li><strong>Name:</strong> {{ .Params.name }}</li>
+      <li><strong>Email:</strong> <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></li>
+      <li><strong>Phone:</strong> {{ .Params.phone }}</li>
+      <li><strong>GitHub:</strong> <a href="{{ .Params.github }}">{{ .Params.github }}</a></li>
+    </ul>
+  </section>
+
+  <!-- Resume PDF -->
+  <section class="mb-6">
+    <h2 class="text-2xl font-semibold text-gray-900 dark:text-white">View Resume</h2>
+    <p>You can <a href="/files/{{ .Params.resumeFile }}" class="text-blue-600">download the resume</a> or view it below:</p>
+    <embed src="/files/{{ .Params.resumeFile }}" width="800" height="600" type="application/pdf" />
+  </section>
 </article>
-{{ end }}
