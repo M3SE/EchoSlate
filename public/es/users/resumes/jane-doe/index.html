@@ -1,26 +1,261 @@
-
-<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><article class="max-w-4xl mx-auto p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
-  <header class="mb-6">
-    <h1 class="text-4xl font-bold text-gray-900 dark:text-white">'s Resume</h1>
-    <p class="text-gray-600 dark:text-gray-400">Currículum de Desarrolladora Full Stack</p>
-    <time class="text-gray-500 dark:text-gray-400">October 18, 2024</time>
-  </header>
+<!DOCTYPE html>
+<html lang="es">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jane Doe | EchoSlate</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh; margin: 0; padding: 0;" class="bg-gray-100 dark:bg-gray-800 dark:text-white">
 
   
-  <section class="mb-6">
-    <h2 class="text-2xl font-semibold text-gray-900 dark:text-white">Contact Information</h2>
-    <ul class="text-gray-700 dark:text-gray-300">
-      <li><strong>Name:</strong> </li>
-      <li><strong>Email:</strong> <a href="mailto:"></a></li>
-      <li><strong>Phone:</strong> </li>
-      <li><strong>GitHub:</strong> <a href=""></a></li>
-    </ul>
-  </section>
+  <header class="bg-gray-800 text-white p-4 fixed w-full z-10 dark:bg-gray-900">
+    <nav class="max-w-7xl mx-auto flex justify-between items-center">
+        
+        <div class="text-2xl font-bold">
+            <a href="/es/" 
+               class="text-white hover:text-gray-400">
+                EchoSlate
+            </a>
+        </div>
+
+        
+        <ul class="flex space-x-4">
+            
+                <li>
+                    <a href="/es/users/" 
+                    class="text-white hover:text-gray-400">
+                    Usuarios
+                 </a>
+                 
+                </li>
+            
+                <li>
+                    <a href="/es/edit/" 
+                    class="text-white hover:text-gray-400">
+                    Editar
+                 </a>
+                 
+                </li>
+            
+                <li>
+                    <a href="/es/upload/" 
+                    class="text-white hover:text-gray-400">
+                    Subir
+                 </a>
+                 
+                </li>
+            
+                <li>
+                    <a href="/es/search/" 
+                    class="text-white hover:text-gray-400">
+                    Buscar
+                 </a>
+                 
+                </li>
+            
+                <li>
+                    <a href="/es/about/" 
+                    class="text-white hover:text-gray-400">
+                    Acerca de
+                 </a>
+                 
+                </li>
+            
+                <li>
+                    <a href="/es/contact/" 
+                    class="text-white hover:text-gray-400">
+                    Contacto
+                 </a>
+                 
+                </li>
+            
+        </ul>
+
+        
+        <div class="flex items-center space-x-4">
+            
+            <button id="dark-mode-toggle" class="focus:outline-none" aria-label="Toggle dark mode">
+                <svg id="dark-mode-icon" class="w-6 h-6 text-white dark:text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    
+                    <path id="sun-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 2v2m6.364 1.636l-1.414 1.414M22 12h-2
+                           M17.657 17.657l-1.414-1.414M12 22v-2
+                           m-4.95-1.636l1.414-1.414M2 12h2
+                           m1.636-4.95l1.414 1.414" />
+                    
+                    <path id="moon-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M21 12.79A9 9 0 0112.21 3
+                           a9 9 0 100 18c4.63 0 8.44-3.5
+                           8.79-7.9z" />
+                </svg>
+            </button>
+
+            
+            <div class="flex space-x-4">
+                
+                
+                <a href="/users/resumes/jane-doe/" 
+                   class="text-white hover:text-gray-400">
+                    English
+                </a>
+
+                
+                
+                <a href="/es/" 
+                   style="color: #4A90E2;">
+                    Español
+                </a>
+
+
+                
+                <div id="userHeader" class="text-lg font-bold" style="display: none;"></div>
+            </div>
+        </div>
+    </nav>
+</header>
+
 
   
-  <section class="mb-6">
-    <h2 class="text-2xl font-semibold text-gray-900 dark:text-white">View Resume</h2>
-    <p>You can <a href="/files/" class="text-blue-600">download the resume</a> or view it below:</p>
-    <embed src="/files/" width="800" height="600" type="application/pdf" />
-  </section>
+  <div style="flex-grow: 1;">
+    <main class="py-16">
+      
+<article class="prose dark:prose-dark mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <h1 class="mt-6 mb-2 text-gray-900 dark:text-gray-100 text-4xl font-bold">
+  Jane Doe
+</h1>
+<p><strong>Correo Electrónico:</strong> <a href="mailto:jane.doe@example.com" class="text-blue-600 hover:text-blue-800 underline">
+    jane.doe@example.com
+  </a>
+  <br>
+<strong>Teléfono:</strong> (123) 456-7890<br>
+<strong>Ubicación:</strong> San Francisco, CA, EE.UU.<br>
+<strong>LinkedIn:</strong> <a href="https://linkedin.com/in/janedoe" class="text-blue-600 hover:text-blue-800 underline">
+    linkedin.com/in/janedoe
+  </a>
+  <br>
+<strong>GitHub:</strong> <a href="https://github.com/janedoe" class="text-blue-600 hover:text-blue-800 underline">
+    github.com/janedoe
+  </a>
+  </p>
+<hr>
+<h2 class="mt-6 mb-2 text-gray-900 dark:text-gray-100 text-3xl font-semibold">
+  Resumen Profesional
+</h2>
+<p>Desarrolladora Full Stack con más de 5 años de experiencia en la creación de aplicaciones web utilizando JavaScript, Node.js y React. Apasionada por crear aplicaciones eficientes y escalables con un enfoque en la experiencia del usuario y la optimización del rendimiento.</p>
+<h2 class="mt-6 mb-2 text-gray-900 dark:text-gray-100 text-3xl font-semibold">
+  Habilidades
+</h2>
+<ul>
+<li><strong>Lenguajes de Programación:</strong> JavaScript (ES6+), TypeScript, Python, Java</li>
+<li><strong>Frameworks y Librerías:</strong> React, Node.js, Express.js, Next.js</li>
+<li><strong>Bases de Datos:</strong> MongoDB, PostgreSQL, MySQL</li>
+<li><strong>Herramientas y Plataformas:</strong> Git, Docker, AWS, Jenkins, CI/CD</li>
+<li><strong>Otros:</strong> APIs RESTful, GraphQL, Agile/Scrum, TDD/BDD</li>
+</ul>
+<h2 class="mt-6 mb-2 text-gray-900 dark:text-gray-100 text-3xl font-semibold">
+  Experiencia
+</h2>
+<h3 class="mt-6 mb-2 text-gray-900 dark:text-gray-100 text-2xl font-semibold">
+  <strong>Desarrolladora Full Stack Senior</strong>
+</h3>
+<p><strong>ABC Tech Solutions</strong>, San Francisco, CA<br>
+<strong>Junio 2020 – Presente</strong></p>
+<ul>
+<li>Lideró el desarrollo de una aplicación web para clientes utilizando React y Node.js, mejorando el rendimiento en un 30%.</li>
+<li>Colaboró con equipos multifuncionales para diseñar e implementar nuevas funcionalidades, aumentando el compromiso de los usuarios en un 25%.</li>
+<li>Mentora de desarrolladores junior y realizó revisiones de código para mantener la calidad y las mejores prácticas.</li>
+</ul>
+<h3 class="mt-6 mb-2 text-gray-900 dark:text-gray-100 text-2xl font-semibold">
+  <strong>Desarrolladora Full Stack</strong>
+</h3>
+<p><strong>XYZ Innovations</strong>, San Francisco, CA<br>
+<strong>Agosto 2017 – Mayo 2020</strong></p>
+<ul>
+<li>Desarrolló y mantuvo aplicaciones web utilizando Django y React, sirviendo a más de 50,000 usuarios.</li>
+<li>Implementó APIs RESTful e integró servicios de terceros, reduciendo el tiempo de recuperación de datos en un 40%.</li>
+<li>Optimizó consultas de bases de datos, reduciendo los tiempos de carga en un 25% y mejorando la escalabilidad de la aplicación.</li>
+</ul>
+<h2 class="mt-6 mb-2 text-gray-900 dark:text-gray-100 text-3xl font-semibold">
+  Educación
+</h2>
+<h3 class="mt-6 mb-2 text-gray-900 dark:text-gray-100 text-2xl font-semibold">
+  <strong>Licenciatura en Ciencias de la Computación</strong>
+</h3>
+<p><strong>Universidad de California, Berkeley</strong><br>
+<strong>2013 – 2017</strong></p>
+<ul>
+<li>GPA: 3.8/4.0</li>
+<li><strong>Cursos Relevantes:</strong> Estructuras de Datos, Algoritmos, Sistemas de Bases de Datos, Ingeniería de Software, Aprendizaje Automático</li>
+</ul>
+<h2 class="mt-6 mb-2 text-gray-900 dark:text-gray-100 text-3xl font-semibold">
+  Proyectos
+</h2>
+<ul>
+<li><strong>Plataforma de Comercio Electrónico:</strong> Construyó una plataforma escalable de comercio electrónico utilizando Node.js y React, manejando más de 10,000 usuarios diarios.</li>
+<li><strong>Aplicación de Chat en Tiempo Real:</strong> Desarrolló una aplicación de chat utilizando WebSocket y Node.js, soportando comunicación en tiempo real para 5,000 usuarios concurrentes.</li>
+<li><strong>Sitio Web de Portafolio:</strong> Creó un sitio web de portafolio personal utilizando Next.js y Tailwind CSS para mostrar proyectos y blogs.</li>
+</ul>
+<h2 class="mt-6 mb-2 text-gray-900 dark:text-gray-100 text-3xl font-semibold">
+  Certificaciones
+</h2>
+<ul>
+<li><strong>AWS Certified Solutions Architect – Associate</strong></li>
+<li><strong>Certified ScrumMaster (CSM)</strong></li>
+<li><strong>Oracle Certified Java Programmer</strong></li>
+</ul>
+<h2 class="mt-6 mb-2 text-gray-900 dark:text-gray-100 text-3xl font-semibold">
+  Idiomas
+</h2>
+<ul>
+<li><strong>Inglés:</strong> Nativo</li>
+<li><strong>Español:</strong> Fluido</li>
+</ul>
+<h2 class="mt-6 mb-2 text-gray-900 dark:text-gray-100 text-3xl font-semibold">
+  Referencias
+</h2>
+<p>Disponibles a solicitud.</p>
+<hr>
+<p><a href="/files/jane-doe-resume.pdf" class="text-blue-600 hover:text-blue-800 underline">
+    Descargar Currículum en PDF
+  </a>
+  </p>
+
 </article>
+
+    </main>
+  </div>
+
+  
+  <footer style="width: 100%; background-color: #111827; color: #9ca3af; text-align: center; padding: 2rem; position: relative;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+      <p>© 2024 EchoSlate. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+ 
+
+  
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+    const firebaseConfig = {
+      apiKey: "AIzaSyA9w_PQS8HnG4q4PjW8fQN1isBzftDeZBE",
+      authDomain: "testechoslate.firebaseapp.com",
+      projectId: "testechoslate",
+      storageBucket: "testechoslate.appspot.com",
+      messagingSenderId: "987831629951",
+      appId: "1:987831629951:web:f37aeba48e5fc10b6ce74a"
+    };
+    const app = initializeApp(firebaseConfig);
+    console.log("Firebase initialized");
+  </script>
+
+  
+  <script type="module" src="/js/auth.js"></script>
+
+  
+  <script src="/js/dark-mode-toggle.js"></script>
+
+</body>
+</html>
